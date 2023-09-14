@@ -102,6 +102,37 @@ build learning-c2: C_EXECUTABLE_LINKER__learning-c2_Debug CMakeFiles/learning-c2
   TARGET_FILE = learning-c2
   TARGET_PDB = learning-c2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target learning-c3
+
+
+#############################################
+# Order-only phony target for learning-c3
+
+build cmake_object_order_depends_target_learning-c3: phony || CMakeFiles/learning-c3.dir
+
+build CMakeFiles/learning-c3.dir/lesson3.c.o: C_COMPILER__learning-c3_Debug /Users/aliran/Desktop/c/learning-c/lesson3.c || cmake_object_order_depends_target_learning-c3
+  DEP_FILE = CMakeFiles/learning-c3.dir/lesson3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/learning-c3.dir
+  OBJECT_FILE_DIR = CMakeFiles/learning-c3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target learning-c3
+
+
+#############################################
+# Link the executable learning-c3
+
+build learning-c3: C_EXECUTABLE_LINKER__learning-c3_Debug CMakeFiles/learning-c3.dir/lesson3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/learning-c3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = learning-c3
+  TARGET_PDB = learning-c3.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio
 
-build all: phony learning-c1 learning-c2
+build all: phony learning-c1 learning-c2 learning-c3
 
 # =============================================================================
 # Unknown Build Time Dependencies.
