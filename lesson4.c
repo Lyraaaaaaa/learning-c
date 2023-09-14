@@ -8,7 +8,7 @@ int main() //输入1-5输出weekday,输入6-7输出weekend
 
     switch(day) {
         case 1:
-        case2 :
+        case 2 :
         case 3:
         case 4:
         case 5:
