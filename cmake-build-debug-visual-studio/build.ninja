@@ -41,35 +41,66 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/
 # =============================================================================
-# Object build statements for EXECUTABLE target learning-c
+# Object build statements for EXECUTABLE target learning-c1
 
 
 #############################################
-# Order-only phony target for learning-c
+# Order-only phony target for learning-c1
 
-build cmake_object_order_depends_target_learning-c: phony || CMakeFiles/learning-c.dir
+build cmake_object_order_depends_target_learning-c1: phony || CMakeFiles/learning-c1.dir
 
-build CMakeFiles/learning-c.dir/lesson1.c.o: C_COMPILER__learning-c_Debug /Users/aliran/Desktop/c/learning-c/lesson1.c || cmake_object_order_depends_target_learning-c
-  DEP_FILE = CMakeFiles/learning-c.dir/lesson1.c.o.d
+build CMakeFiles/learning-c1.dir/lesson1.c.o: C_COMPILER__learning-c1_Debug /Users/aliran/Desktop/c/learning-c/lesson1.c || cmake_object_order_depends_target_learning-c1
+  DEP_FILE = CMakeFiles/learning-c1.dir/lesson1.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/learning-c.dir
-  OBJECT_FILE_DIR = CMakeFiles/learning-c.dir
+  OBJECT_DIR = CMakeFiles/learning-c1.dir
+  OBJECT_FILE_DIR = CMakeFiles/learning-c1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target learning-c
+# Link build statements for EXECUTABLE target learning-c1
 
 
 #############################################
-# Link the executable learning-c
+# Link the executable learning-c1
 
-build learning-c: C_EXECUTABLE_LINKER__learning-c_Debug CMakeFiles/learning-c.dir/lesson1.c.o
+build learning-c1: C_EXECUTABLE_LINKER__learning-c1_Debug CMakeFiles/learning-c1.dir/lesson1.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/learning-c.dir
+  OBJECT_DIR = CMakeFiles/learning-c1.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = learning-c
-  TARGET_PDB = learning-c.dbg
+  TARGET_FILE = learning-c1
+  TARGET_PDB = learning-c1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target learning-c2
+
+
+#############################################
+# Order-only phony target for learning-c2
+
+build cmake_object_order_depends_target_learning-c2: phony || CMakeFiles/learning-c2.dir
+
+build CMakeFiles/learning-c2.dir/lesson2.c.o: C_COMPILER__learning-c2_Debug /Users/aliran/Desktop/c/learning-c/lesson2.c || cmake_object_order_depends_target_learning-c2
+  DEP_FILE = CMakeFiles/learning-c2.dir/lesson2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/learning-c2.dir
+  OBJECT_FILE_DIR = CMakeFiles/learning-c2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target learning-c2
+
+
+#############################################
+# Link the executable learning-c2
+
+build learning-c2: C_EXECUTABLE_LINKER__learning-c2_Debug CMakeFiles/learning-c2.dir/lesson2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/learning-c2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = learning-c2
+  TARGET_PDB = learning-c2.dbg
 
 
 #############################################
@@ -105,7 +136,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio
 
-build all: phony learning-c
+build all: phony learning-c1 learning-c2
 
 # =============================================================================
 # Unknown Build Time Dependencies.

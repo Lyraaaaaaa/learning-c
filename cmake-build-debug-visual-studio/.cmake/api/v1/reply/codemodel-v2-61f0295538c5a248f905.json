@@ -11,7 +11,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -26,7 +27,8 @@
 					"name" : "learning-c",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -34,9 +36,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "learning-c::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learning-c-Debug-d4eb49ce5ba449883d4f.json",
-					"name" : "learning-c",
+					"id" : "learning-c1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning-c1-Debug-49d2be36d6061f497ca5.json",
+					"name" : "learning-c1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learning-c2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning-c2-Debug-d2e002697a245e8278ff.json",
+					"name" : "learning-c2",
 					"projectIndex" : 0
 				}
 			]

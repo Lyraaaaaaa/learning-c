@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "learning-c"
+			"path" : "learning-c1"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			]
 		}
 	],
-	"id" : "learning-c::@6890427a1f51a3e7e1df",
+	"id" : "learning-c1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -61,8 +61,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "learning-c",
-	"nameOnDisk" : "learning-c",
+	"name" : "learning-c1",
+	"nameOnDisk" : "learning-c1",
 	"paths" : 
 	{
 		"build" : ".",
