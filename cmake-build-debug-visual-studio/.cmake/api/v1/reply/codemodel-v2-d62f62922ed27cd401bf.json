@@ -19,7 +19,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -42,7 +43,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -53,6 +55,13 @@
 					"id" : "learning-c1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-learning-c1-Debug-49d2be36d6061f497ca5.json",
 					"name" : "learning-c1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learning-c10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning-c10-Debug-98ec0e8a0b0cc323d580.json",
+					"name" : "learning-c10",
 					"projectIndex" : 0
 				},
 				{
