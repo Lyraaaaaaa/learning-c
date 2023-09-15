@@ -443,6 +443,68 @@ build learning-c13: C_EXECUTABLE_LINKER__learning-c13_Debug CMakeFiles/learning-
   TARGET_FILE = learning-c13
   TARGET_PDB = learning-c13.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target learning-c14
+
+
+#############################################
+# Order-only phony target for learning-c14
+
+build cmake_object_order_depends_target_learning-c14: phony || CMakeFiles/learning-c14.dir
+
+build CMakeFiles/learning-c14.dir/lesson14.c.o: C_COMPILER__learning-c14_Debug /Users/aliran/Desktop/c/learning-c/lesson14.c || cmake_object_order_depends_target_learning-c14
+  DEP_FILE = CMakeFiles/learning-c14.dir/lesson14.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/learning-c14.dir
+  OBJECT_FILE_DIR = CMakeFiles/learning-c14.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target learning-c14
+
+
+#############################################
+# Link the executable learning-c14
+
+build learning-c14: C_EXECUTABLE_LINKER__learning-c14_Debug CMakeFiles/learning-c14.dir/lesson14.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/learning-c14.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = learning-c14
+  TARGET_PDB = learning-c14.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target learning-c15
+
+
+#############################################
+# Order-only phony target for learning-c15
+
+build cmake_object_order_depends_target_learning-c15: phony || CMakeFiles/learning-c15.dir
+
+build CMakeFiles/learning-c15.dir/lesson15.c.o: C_COMPILER__learning-c15_Debug /Users/aliran/Desktop/c/learning-c/lesson15.c || cmake_object_order_depends_target_learning-c15
+  DEP_FILE = CMakeFiles/learning-c15.dir/lesson15.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/learning-c15.dir
+  OBJECT_FILE_DIR = CMakeFiles/learning-c15.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target learning-c15
+
+
+#############################################
+# Link the executable learning-c15
+
+build learning-c15: C_EXECUTABLE_LINKER__learning-c15_Debug CMakeFiles/learning-c15.dir/lesson15.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/learning-c15.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = learning-c15
+  TARGET_PDB = learning-c15.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -477,7 +539,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio
 
-build all: phony learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11 learning-c12 learning-c13
+build all: phony learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11 learning-c12 learning-c13 learning-c14 learning-c15
 
 # =============================================================================
 # Unknown Build Time Dependencies.
