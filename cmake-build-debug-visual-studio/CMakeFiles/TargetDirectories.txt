@@ -9,5 +9,6 @@
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c9.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c10.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c11.dir
+/Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c12.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
