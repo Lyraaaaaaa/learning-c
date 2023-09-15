@@ -5,5 +5,6 @@
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c5.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c6.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c7.dir
+/Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c8.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
