@@ -350,6 +350,37 @@ build learning-c10: C_EXECUTABLE_LINKER__learning-c10_Debug CMakeFiles/learning-
   TARGET_FILE = learning-c10
   TARGET_PDB = learning-c10.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target learning-c11
+
+
+#############################################
+# Order-only phony target for learning-c11
+
+build cmake_object_order_depends_target_learning-c11: phony || CMakeFiles/learning-c11.dir
+
+build CMakeFiles/learning-c11.dir/lesson11.c.o: C_COMPILER__learning-c11_Debug /Users/aliran/Desktop/c/learning-c/lesson11.c || cmake_object_order_depends_target_learning-c11
+  DEP_FILE = CMakeFiles/learning-c11.dir/lesson11.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/learning-c11.dir
+  OBJECT_FILE_DIR = CMakeFiles/learning-c11.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target learning-c11
+
+
+#############################################
+# Link the executable learning-c11
+
+build learning-c11: C_EXECUTABLE_LINKER__learning-c11_Debug CMakeFiles/learning-c11.dir/lesson11.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/learning-c11.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = learning-c11
+  TARGET_PDB = learning-c11.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -384,7 +415,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio
 
-build all: phony learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10
+build all: phony learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11
 
 # =============================================================================
 # Unknown Build Time Dependencies.
