@@ -536,6 +536,37 @@ build learning-c16: C_EXECUTABLE_LINKER__learning-c16_Debug CMakeFiles/learning-
   TARGET_FILE = learning-c16
   TARGET_PDB = learning-c16.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target learning-c17
+
+
+#############################################
+# Order-only phony target for learning-c17
+
+build cmake_object_order_depends_target_learning-c17: phony || CMakeFiles/learning-c17.dir
+
+build CMakeFiles/learning-c17.dir/lesson17.c.o: C_COMPILER__learning-c17_Debug /Users/aliran/Desktop/c/learning-c/lesson17.c || cmake_object_order_depends_target_learning-c17
+  DEP_FILE = CMakeFiles/learning-c17.dir/lesson17.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/learning-c17.dir
+  OBJECT_FILE_DIR = CMakeFiles/learning-c17.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target learning-c17
+
+
+#############################################
+# Link the executable learning-c17
+
+build learning-c17: C_EXECUTABLE_LINKER__learning-c17_Debug CMakeFiles/learning-c17.dir/lesson17.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/learning-c17.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = learning-c17
+  TARGET_PDB = learning-c17.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -570,7 +601,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio
 
-build all: phony learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11 learning-c12 learning-c13 learning-c14 learning-c15 learning-c16
+build all: phony learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11 learning-c12 learning-c13 learning-c14 learning-c15 learning-c16 learning-c17
 
 # =============================================================================
 # Unknown Build Time Dependencies.
