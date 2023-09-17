@@ -27,7 +27,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					]
 				}
 			],
@@ -58,7 +59,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					]
 				}
 			],
@@ -125,6 +127,13 @@
 					"id" : "learning-c17::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-learning-c17-Debug-6343854eca37d9b86b5f.json",
 					"name" : "learning-c17",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learning-c18::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning-c18-Debug-8f726a86aed47314336c.json",
+					"name" : "learning-c18",
 					"projectIndex" : 0
 				},
 				{
