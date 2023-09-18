@@ -666,6 +666,37 @@ build learning-c20: C_EXECUTABLE_LINKER__learning-c20_Debug CMakeFiles/learning-
   TARGET_FILE = learning-c20
   TARGET_PDB = learning-c20.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target learning-c21
+
+
+#############################################
+# Order-only phony target for learning-c21
+
+build cmake_object_order_depends_target_learning-c21: phony || CMakeFiles/learning-c21.dir
+
+build CMakeFiles/learning-c21.dir/lesson21.c.o: C_COMPILER__learning-c21_Debug /Users/aliran/Desktop/c/learning-c/lesson21.c || cmake_object_order_depends_target_learning-c21
+  DEP_FILE = CMakeFiles/learning-c21.dir/lesson21.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/learning-c21.dir
+  OBJECT_FILE_DIR = CMakeFiles/learning-c21.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target learning-c21
+
+
+#############################################
+# Link the executable learning-c21
+
+build learning-c21: C_EXECUTABLE_LINKER__learning-c21_Debug CMakeFiles/learning-c21.dir/lesson21.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/learning-c21.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = learning-c21
+  TARGET_PDB = learning-c21.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -700,7 +731,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio
 
-build all: phony learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11 learning-c12 learning-c13 learning-c14 learning-c15 learning-c16 learning-c17 learning-c18 learning-c19 learning-c20
+build all: phony learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11 learning-c12 learning-c13 learning-c14 learning-c15 learning-c16 learning-c17 learning-c18 learning-c19 learning-c20 learning-c21
 
 # =============================================================================
 # Unknown Build Time Dependencies.
