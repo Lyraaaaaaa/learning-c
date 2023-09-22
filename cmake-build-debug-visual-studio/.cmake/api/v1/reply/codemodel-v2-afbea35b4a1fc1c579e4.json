@@ -36,7 +36,9 @@
 						22,
 						23,
 						24,
-						25
+						25,
+						26,
+						27
 					]
 				}
 			],
@@ -76,7 +78,9 @@
 						22,
 						23,
 						24,
-						25
+						25,
+						26,
+						27
 					]
 				}
 			],
@@ -213,6 +217,20 @@
 					"id" : "learning-c26::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-learning-c26-Debug-0ca6136de8711733dd49.json",
 					"name" : "learning-c26",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learning-c27::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning-c27-Debug-634490b17196e1dd9872.json",
+					"name" : "learning-c27",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learning-c28::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning-c28-Debug-b472d42705e5eddb7774.json",
+					"name" : "learning-c28",
 					"projectIndex" : 0
 				},
 				{
