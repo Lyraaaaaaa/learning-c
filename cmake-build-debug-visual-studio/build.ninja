@@ -49,14 +49,14 @@ cmake_ninja_workdir = /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visua
 
 build cmake_object_order_depends_target_learning-c1: phony || CMakeFiles/learning-c1.dir
 
-build CMakeFiles/learning-c1.dir/lesson1.c.o: C_COMPILER__learning-c1_Debug /Users/aliran/Desktop/c/learning-c/lesson1.c || cmake_object_order_depends_target_learning-c1
-  DEP_FILE = CMakeFiles/learning-c1.dir/lesson1.c.o.d
+build CMakeFiles/learning-c1.dir/lesson1.o: C_COMPILER__learning-c1_Debug /Users/aliran/Desktop/c/learning-c/lesson1.c || cmake_object_order_depends_target_learning-c1
+  DEP_FILE = CMakeFiles/learning-c1.dir/lesson1.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c1.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c1.dir
 
-build CMakeFiles/learning-c1.dir/lesson20.c.o: C_COMPILER__learning-c1_Debug /Users/aliran/Desktop/c/learning-c/lesson20.c || cmake_object_order_depends_target_learning-c1
-  DEP_FILE = CMakeFiles/learning-c1.dir/lesson20.c.o.d
+build CMakeFiles/learning-c1.dir/lesson20.o: C_COMPILER__learning-c1_Debug /Users/aliran/Desktop/c/learning-c/lesson20.c || cmake_object_order_depends_target_learning-c1
+  DEP_FILE = CMakeFiles/learning-c1.dir/lesson20.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c1.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c1.dir
@@ -69,7 +69,7 @@ build CMakeFiles/learning-c1.dir/lesson20.c.o: C_COMPILER__learning-c1_Debug /Us
 #############################################
 # Link the executable learning-c1
 
-build learning-c1: C_EXECUTABLE_LINKER__learning-c1_Debug CMakeFiles/learning-c1.dir/lesson1.c.o CMakeFiles/learning-c1.dir/lesson20.c.o
+build learning-c1: C_EXECUTABLE_LINKER__learning-c1_Debug CMakeFiles/learning-c1.dir/lesson1.o CMakeFiles/learning-c1.dir/lesson20.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c1.dir
   POST_BUILD = :
@@ -86,8 +86,8 @@ build learning-c1: C_EXECUTABLE_LINKER__learning-c1_Debug CMakeFiles/learning-c1
 
 build cmake_object_order_depends_target_learning-c2: phony || CMakeFiles/learning-c2.dir
 
-build CMakeFiles/learning-c2.dir/lesson2.c.o: C_COMPILER__learning-c2_Debug /Users/aliran/Desktop/c/learning-c/lesson2.c || cmake_object_order_depends_target_learning-c2
-  DEP_FILE = CMakeFiles/learning-c2.dir/lesson2.c.o.d
+build CMakeFiles/learning-c2.dir/lesson2.o: C_COMPILER__learning-c2_Debug /Users/aliran/Desktop/c/learning-c/lesson2.c || cmake_object_order_depends_target_learning-c2
+  DEP_FILE = CMakeFiles/learning-c2.dir/lesson2.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c2.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c2.dir
@@ -100,7 +100,7 @@ build CMakeFiles/learning-c2.dir/lesson2.c.o: C_COMPILER__learning-c2_Debug /Use
 #############################################
 # Link the executable learning-c2
 
-build learning-c2: C_EXECUTABLE_LINKER__learning-c2_Debug CMakeFiles/learning-c2.dir/lesson2.c.o
+build learning-c2: C_EXECUTABLE_LINKER__learning-c2_Debug CMakeFiles/learning-c2.dir/lesson2.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c2.dir
   POST_BUILD = :
@@ -117,8 +117,8 @@ build learning-c2: C_EXECUTABLE_LINKER__learning-c2_Debug CMakeFiles/learning-c2
 
 build cmake_object_order_depends_target_learning-c3: phony || CMakeFiles/learning-c3.dir
 
-build CMakeFiles/learning-c3.dir/lesson3.c.o: C_COMPILER__learning-c3_Debug /Users/aliran/Desktop/c/learning-c/lesson3.c || cmake_object_order_depends_target_learning-c3
-  DEP_FILE = CMakeFiles/learning-c3.dir/lesson3.c.o.d
+build CMakeFiles/learning-c3.dir/lesson3.o: C_COMPILER__learning-c3_Debug /Users/aliran/Desktop/c/learning-c/lesson3.c || cmake_object_order_depends_target_learning-c3
+  DEP_FILE = CMakeFiles/learning-c3.dir/lesson3.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c3.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c3.dir
@@ -131,7 +131,7 @@ build CMakeFiles/learning-c3.dir/lesson3.c.o: C_COMPILER__learning-c3_Debug /Use
 #############################################
 # Link the executable learning-c3
 
-build learning-c3: C_EXECUTABLE_LINKER__learning-c3_Debug CMakeFiles/learning-c3.dir/lesson3.c.o
+build learning-c3: C_EXECUTABLE_LINKER__learning-c3_Debug CMakeFiles/learning-c3.dir/lesson3.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c3.dir
   POST_BUILD = :
@@ -148,8 +148,8 @@ build learning-c3: C_EXECUTABLE_LINKER__learning-c3_Debug CMakeFiles/learning-c3
 
 build cmake_object_order_depends_target_learning-c4: phony || CMakeFiles/learning-c4.dir
 
-build CMakeFiles/learning-c4.dir/lesson4.c.o: C_COMPILER__learning-c4_Debug /Users/aliran/Desktop/c/learning-c/lesson4.c || cmake_object_order_depends_target_learning-c4
-  DEP_FILE = CMakeFiles/learning-c4.dir/lesson4.c.o.d
+build CMakeFiles/learning-c4.dir/lesson4.o: C_COMPILER__learning-c4_Debug /Users/aliran/Desktop/c/learning-c/lesson4.c || cmake_object_order_depends_target_learning-c4
+  DEP_FILE = CMakeFiles/learning-c4.dir/lesson4.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c4.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c4.dir
@@ -162,7 +162,7 @@ build CMakeFiles/learning-c4.dir/lesson4.c.o: C_COMPILER__learning-c4_Debug /Use
 #############################################
 # Link the executable learning-c4
 
-build learning-c4: C_EXECUTABLE_LINKER__learning-c4_Debug CMakeFiles/learning-c4.dir/lesson4.c.o
+build learning-c4: C_EXECUTABLE_LINKER__learning-c4_Debug CMakeFiles/learning-c4.dir/lesson4.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c4.dir
   POST_BUILD = :
@@ -179,8 +179,8 @@ build learning-c4: C_EXECUTABLE_LINKER__learning-c4_Debug CMakeFiles/learning-c4
 
 build cmake_object_order_depends_target_learning-c5: phony || CMakeFiles/learning-c5.dir
 
-build CMakeFiles/learning-c5.dir/lesson5.c.o: C_COMPILER__learning-c5_Debug /Users/aliran/Desktop/c/learning-c/lesson5.c || cmake_object_order_depends_target_learning-c5
-  DEP_FILE = CMakeFiles/learning-c5.dir/lesson5.c.o.d
+build CMakeFiles/learning-c5.dir/lesson5.o: C_COMPILER__learning-c5_Debug /Users/aliran/Desktop/c/learning-c/lesson5.c || cmake_object_order_depends_target_learning-c5
+  DEP_FILE = CMakeFiles/learning-c5.dir/lesson5.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c5.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c5.dir
@@ -193,7 +193,7 @@ build CMakeFiles/learning-c5.dir/lesson5.c.o: C_COMPILER__learning-c5_Debug /Use
 #############################################
 # Link the executable learning-c5
 
-build learning-c5: C_EXECUTABLE_LINKER__learning-c5_Debug CMakeFiles/learning-c5.dir/lesson5.c.o
+build learning-c5: C_EXECUTABLE_LINKER__learning-c5_Debug CMakeFiles/learning-c5.dir/lesson5.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c5.dir
   POST_BUILD = :
@@ -210,8 +210,8 @@ build learning-c5: C_EXECUTABLE_LINKER__learning-c5_Debug CMakeFiles/learning-c5
 
 build cmake_object_order_depends_target_learning-c6: phony || CMakeFiles/learning-c6.dir
 
-build CMakeFiles/learning-c6.dir/lesson6.c.o: C_COMPILER__learning-c6_Debug /Users/aliran/Desktop/c/learning-c/lesson6.c || cmake_object_order_depends_target_learning-c6
-  DEP_FILE = CMakeFiles/learning-c6.dir/lesson6.c.o.d
+build CMakeFiles/learning-c6.dir/lesson6.o: C_COMPILER__learning-c6_Debug /Users/aliran/Desktop/c/learning-c/lesson6.c || cmake_object_order_depends_target_learning-c6
+  DEP_FILE = CMakeFiles/learning-c6.dir/lesson6.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c6.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c6.dir
@@ -224,7 +224,7 @@ build CMakeFiles/learning-c6.dir/lesson6.c.o: C_COMPILER__learning-c6_Debug /Use
 #############################################
 # Link the executable learning-c6
 
-build learning-c6: C_EXECUTABLE_LINKER__learning-c6_Debug CMakeFiles/learning-c6.dir/lesson6.c.o
+build learning-c6: C_EXECUTABLE_LINKER__learning-c6_Debug CMakeFiles/learning-c6.dir/lesson6.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c6.dir
   POST_BUILD = :
@@ -241,8 +241,8 @@ build learning-c6: C_EXECUTABLE_LINKER__learning-c6_Debug CMakeFiles/learning-c6
 
 build cmake_object_order_depends_target_learning-c7: phony || CMakeFiles/learning-c7.dir
 
-build CMakeFiles/learning-c7.dir/lesson7.c.o: C_COMPILER__learning-c7_Debug /Users/aliran/Desktop/c/learning-c/lesson7.c || cmake_object_order_depends_target_learning-c7
-  DEP_FILE = CMakeFiles/learning-c7.dir/lesson7.c.o.d
+build CMakeFiles/learning-c7.dir/lesson7.o: C_COMPILER__learning-c7_Debug /Users/aliran/Desktop/c/learning-c/lesson7.c || cmake_object_order_depends_target_learning-c7
+  DEP_FILE = CMakeFiles/learning-c7.dir/lesson7.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c7.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c7.dir
@@ -255,7 +255,7 @@ build CMakeFiles/learning-c7.dir/lesson7.c.o: C_COMPILER__learning-c7_Debug /Use
 #############################################
 # Link the executable learning-c7
 
-build learning-c7: C_EXECUTABLE_LINKER__learning-c7_Debug CMakeFiles/learning-c7.dir/lesson7.c.o
+build learning-c7: C_EXECUTABLE_LINKER__learning-c7_Debug CMakeFiles/learning-c7.dir/lesson7.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c7.dir
   POST_BUILD = :
@@ -272,8 +272,8 @@ build learning-c7: C_EXECUTABLE_LINKER__learning-c7_Debug CMakeFiles/learning-c7
 
 build cmake_object_order_depends_target_learning-c8: phony || CMakeFiles/learning-c8.dir
 
-build CMakeFiles/learning-c8.dir/lesson8.c.o: C_COMPILER__learning-c8_Debug /Users/aliran/Desktop/c/learning-c/lesson8.c || cmake_object_order_depends_target_learning-c8
-  DEP_FILE = CMakeFiles/learning-c8.dir/lesson8.c.o.d
+build CMakeFiles/learning-c8.dir/lesson8.o: C_COMPILER__learning-c8_Debug /Users/aliran/Desktop/c/learning-c/lesson8.c || cmake_object_order_depends_target_learning-c8
+  DEP_FILE = CMakeFiles/learning-c8.dir/lesson8.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c8.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c8.dir
@@ -286,7 +286,7 @@ build CMakeFiles/learning-c8.dir/lesson8.c.o: C_COMPILER__learning-c8_Debug /Use
 #############################################
 # Link the executable learning-c8
 
-build learning-c8: C_EXECUTABLE_LINKER__learning-c8_Debug CMakeFiles/learning-c8.dir/lesson8.c.o
+build learning-c8: C_EXECUTABLE_LINKER__learning-c8_Debug CMakeFiles/learning-c8.dir/lesson8.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c8.dir
   POST_BUILD = :
@@ -303,8 +303,8 @@ build learning-c8: C_EXECUTABLE_LINKER__learning-c8_Debug CMakeFiles/learning-c8
 
 build cmake_object_order_depends_target_learning-c9: phony || CMakeFiles/learning-c9.dir
 
-build CMakeFiles/learning-c9.dir/lesson9.c.o: C_COMPILER__learning-c9_Debug /Users/aliran/Desktop/c/learning-c/lesson9.c || cmake_object_order_depends_target_learning-c9
-  DEP_FILE = CMakeFiles/learning-c9.dir/lesson9.c.o.d
+build CMakeFiles/learning-c9.dir/lesson9.o: C_COMPILER__learning-c9_Debug /Users/aliran/Desktop/c/learning-c/lesson9.c || cmake_object_order_depends_target_learning-c9
+  DEP_FILE = CMakeFiles/learning-c9.dir/lesson9.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c9.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c9.dir
@@ -317,7 +317,7 @@ build CMakeFiles/learning-c9.dir/lesson9.c.o: C_COMPILER__learning-c9_Debug /Use
 #############################################
 # Link the executable learning-c9
 
-build learning-c9: C_EXECUTABLE_LINKER__learning-c9_Debug CMakeFiles/learning-c9.dir/lesson9.c.o
+build learning-c9: C_EXECUTABLE_LINKER__learning-c9_Debug CMakeFiles/learning-c9.dir/lesson9.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c9.dir
   POST_BUILD = :
@@ -334,8 +334,8 @@ build learning-c9: C_EXECUTABLE_LINKER__learning-c9_Debug CMakeFiles/learning-c9
 
 build cmake_object_order_depends_target_learning-c10: phony || CMakeFiles/learning-c10.dir
 
-build CMakeFiles/learning-c10.dir/lesson10.c.o: C_COMPILER__learning-c10_Debug /Users/aliran/Desktop/c/learning-c/lesson10.c || cmake_object_order_depends_target_learning-c10
-  DEP_FILE = CMakeFiles/learning-c10.dir/lesson10.c.o.d
+build CMakeFiles/learning-c10.dir/lesson10.o: C_COMPILER__learning-c10_Debug /Users/aliran/Desktop/c/learning-c/lesson10.c || cmake_object_order_depends_target_learning-c10
+  DEP_FILE = CMakeFiles/learning-c10.dir/lesson10.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c10.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c10.dir
@@ -348,7 +348,7 @@ build CMakeFiles/learning-c10.dir/lesson10.c.o: C_COMPILER__learning-c10_Debug /
 #############################################
 # Link the executable learning-c10
 
-build learning-c10: C_EXECUTABLE_LINKER__learning-c10_Debug CMakeFiles/learning-c10.dir/lesson10.c.o
+build learning-c10: C_EXECUTABLE_LINKER__learning-c10_Debug CMakeFiles/learning-c10.dir/lesson10.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c10.dir
   POST_BUILD = :
@@ -365,8 +365,8 @@ build learning-c10: C_EXECUTABLE_LINKER__learning-c10_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c11: phony || CMakeFiles/learning-c11.dir
 
-build CMakeFiles/learning-c11.dir/lesson11.c.o: C_COMPILER__learning-c11_Debug /Users/aliran/Desktop/c/learning-c/lesson11.c || cmake_object_order_depends_target_learning-c11
-  DEP_FILE = CMakeFiles/learning-c11.dir/lesson11.c.o.d
+build CMakeFiles/learning-c11.dir/lesson11.o: C_COMPILER__learning-c11_Debug /Users/aliran/Desktop/c/learning-c/lesson11.c || cmake_object_order_depends_target_learning-c11
+  DEP_FILE = CMakeFiles/learning-c11.dir/lesson11.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c11.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c11.dir
@@ -379,7 +379,7 @@ build CMakeFiles/learning-c11.dir/lesson11.c.o: C_COMPILER__learning-c11_Debug /
 #############################################
 # Link the executable learning-c11
 
-build learning-c11: C_EXECUTABLE_LINKER__learning-c11_Debug CMakeFiles/learning-c11.dir/lesson11.c.o
+build learning-c11: C_EXECUTABLE_LINKER__learning-c11_Debug CMakeFiles/learning-c11.dir/lesson11.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c11.dir
   POST_BUILD = :
@@ -396,8 +396,8 @@ build learning-c11: C_EXECUTABLE_LINKER__learning-c11_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c12: phony || CMakeFiles/learning-c12.dir
 
-build CMakeFiles/learning-c12.dir/lesson12.c.o: C_COMPILER__learning-c12_Debug /Users/aliran/Desktop/c/learning-c/lesson12.c || cmake_object_order_depends_target_learning-c12
-  DEP_FILE = CMakeFiles/learning-c12.dir/lesson12.c.o.d
+build CMakeFiles/learning-c12.dir/lesson12.o: C_COMPILER__learning-c12_Debug /Users/aliran/Desktop/c/learning-c/lesson12.c || cmake_object_order_depends_target_learning-c12
+  DEP_FILE = CMakeFiles/learning-c12.dir/lesson12.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c12.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c12.dir
@@ -410,7 +410,7 @@ build CMakeFiles/learning-c12.dir/lesson12.c.o: C_COMPILER__learning-c12_Debug /
 #############################################
 # Link the executable learning-c12
 
-build learning-c12: C_EXECUTABLE_LINKER__learning-c12_Debug CMakeFiles/learning-c12.dir/lesson12.c.o
+build learning-c12: C_EXECUTABLE_LINKER__learning-c12_Debug CMakeFiles/learning-c12.dir/lesson12.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c12.dir
   POST_BUILD = :
@@ -427,8 +427,8 @@ build learning-c12: C_EXECUTABLE_LINKER__learning-c12_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c13: phony || CMakeFiles/learning-c13.dir
 
-build CMakeFiles/learning-c13.dir/lesson13.c.o: C_COMPILER__learning-c13_Debug /Users/aliran/Desktop/c/learning-c/lesson13.c || cmake_object_order_depends_target_learning-c13
-  DEP_FILE = CMakeFiles/learning-c13.dir/lesson13.c.o.d
+build CMakeFiles/learning-c13.dir/lesson13.o: C_COMPILER__learning-c13_Debug /Users/aliran/Desktop/c/learning-c/lesson13.c || cmake_object_order_depends_target_learning-c13
+  DEP_FILE = CMakeFiles/learning-c13.dir/lesson13.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c13.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c13.dir
@@ -441,7 +441,7 @@ build CMakeFiles/learning-c13.dir/lesson13.c.o: C_COMPILER__learning-c13_Debug /
 #############################################
 # Link the executable learning-c13
 
-build learning-c13: C_EXECUTABLE_LINKER__learning-c13_Debug CMakeFiles/learning-c13.dir/lesson13.c.o
+build learning-c13: C_EXECUTABLE_LINKER__learning-c13_Debug CMakeFiles/learning-c13.dir/lesson13.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c13.dir
   POST_BUILD = :
@@ -458,8 +458,8 @@ build learning-c13: C_EXECUTABLE_LINKER__learning-c13_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c14: phony || CMakeFiles/learning-c14.dir
 
-build CMakeFiles/learning-c14.dir/lesson14.c.o: C_COMPILER__learning-c14_Debug /Users/aliran/Desktop/c/learning-c/lesson14.c || cmake_object_order_depends_target_learning-c14
-  DEP_FILE = CMakeFiles/learning-c14.dir/lesson14.c.o.d
+build CMakeFiles/learning-c14.dir/lesson14.o: C_COMPILER__learning-c14_Debug /Users/aliran/Desktop/c/learning-c/lesson14.c || cmake_object_order_depends_target_learning-c14
+  DEP_FILE = CMakeFiles/learning-c14.dir/lesson14.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c14.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c14.dir
@@ -472,7 +472,7 @@ build CMakeFiles/learning-c14.dir/lesson14.c.o: C_COMPILER__learning-c14_Debug /
 #############################################
 # Link the executable learning-c14
 
-build learning-c14: C_EXECUTABLE_LINKER__learning-c14_Debug CMakeFiles/learning-c14.dir/lesson14.c.o
+build learning-c14: C_EXECUTABLE_LINKER__learning-c14_Debug CMakeFiles/learning-c14.dir/lesson14.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c14.dir
   POST_BUILD = :
@@ -489,8 +489,8 @@ build learning-c14: C_EXECUTABLE_LINKER__learning-c14_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c15: phony || CMakeFiles/learning-c15.dir
 
-build CMakeFiles/learning-c15.dir/lesson15.c.o: C_COMPILER__learning-c15_Debug /Users/aliran/Desktop/c/learning-c/lesson15.c || cmake_object_order_depends_target_learning-c15
-  DEP_FILE = CMakeFiles/learning-c15.dir/lesson15.c.o.d
+build CMakeFiles/learning-c15.dir/lesson15.o: C_COMPILER__learning-c15_Debug /Users/aliran/Desktop/c/learning-c/lesson15.c || cmake_object_order_depends_target_learning-c15
+  DEP_FILE = CMakeFiles/learning-c15.dir/lesson15.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c15.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c15.dir
@@ -503,7 +503,7 @@ build CMakeFiles/learning-c15.dir/lesson15.c.o: C_COMPILER__learning-c15_Debug /
 #############################################
 # Link the executable learning-c15
 
-build learning-c15: C_EXECUTABLE_LINKER__learning-c15_Debug CMakeFiles/learning-c15.dir/lesson15.c.o
+build learning-c15: C_EXECUTABLE_LINKER__learning-c15_Debug CMakeFiles/learning-c15.dir/lesson15.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c15.dir
   POST_BUILD = :
@@ -520,8 +520,8 @@ build learning-c15: C_EXECUTABLE_LINKER__learning-c15_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c16: phony || CMakeFiles/learning-c16.dir
 
-build CMakeFiles/learning-c16.dir/lesson16.c.o: C_COMPILER__learning-c16_Debug /Users/aliran/Desktop/c/learning-c/lesson16.c || cmake_object_order_depends_target_learning-c16
-  DEP_FILE = CMakeFiles/learning-c16.dir/lesson16.c.o.d
+build CMakeFiles/learning-c16.dir/lesson16.o: C_COMPILER__learning-c16_Debug /Users/aliran/Desktop/c/learning-c/lesson16.c || cmake_object_order_depends_target_learning-c16
+  DEP_FILE = CMakeFiles/learning-c16.dir/lesson16.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c16.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c16.dir
@@ -534,7 +534,7 @@ build CMakeFiles/learning-c16.dir/lesson16.c.o: C_COMPILER__learning-c16_Debug /
 #############################################
 # Link the executable learning-c16
 
-build learning-c16: C_EXECUTABLE_LINKER__learning-c16_Debug CMakeFiles/learning-c16.dir/lesson16.c.o
+build learning-c16: C_EXECUTABLE_LINKER__learning-c16_Debug CMakeFiles/learning-c16.dir/lesson16.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c16.dir
   POST_BUILD = :
@@ -551,8 +551,8 @@ build learning-c16: C_EXECUTABLE_LINKER__learning-c16_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c17: phony || CMakeFiles/learning-c17.dir
 
-build CMakeFiles/learning-c17.dir/lesson17.c.o: C_COMPILER__learning-c17_Debug /Users/aliran/Desktop/c/learning-c/lesson17.c || cmake_object_order_depends_target_learning-c17
-  DEP_FILE = CMakeFiles/learning-c17.dir/lesson17.c.o.d
+build CMakeFiles/learning-c17.dir/lesson17.o: C_COMPILER__learning-c17_Debug /Users/aliran/Desktop/c/learning-c/lesson17.c || cmake_object_order_depends_target_learning-c17
+  DEP_FILE = CMakeFiles/learning-c17.dir/lesson17.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c17.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c17.dir
@@ -565,7 +565,7 @@ build CMakeFiles/learning-c17.dir/lesson17.c.o: C_COMPILER__learning-c17_Debug /
 #############################################
 # Link the executable learning-c17
 
-build learning-c17: C_EXECUTABLE_LINKER__learning-c17_Debug CMakeFiles/learning-c17.dir/lesson17.c.o
+build learning-c17: C_EXECUTABLE_LINKER__learning-c17_Debug CMakeFiles/learning-c17.dir/lesson17.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c17.dir
   POST_BUILD = :
@@ -582,8 +582,8 @@ build learning-c17: C_EXECUTABLE_LINKER__learning-c17_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c18: phony || CMakeFiles/learning-c18.dir
 
-build CMakeFiles/learning-c18.dir/lesson18.c.o: C_COMPILER__learning-c18_Debug /Users/aliran/Desktop/c/learning-c/lesson18.c || cmake_object_order_depends_target_learning-c18
-  DEP_FILE = CMakeFiles/learning-c18.dir/lesson18.c.o.d
+build CMakeFiles/learning-c18.dir/lesson18.o: C_COMPILER__learning-c18_Debug /Users/aliran/Desktop/c/learning-c/lesson18.c || cmake_object_order_depends_target_learning-c18
+  DEP_FILE = CMakeFiles/learning-c18.dir/lesson18.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c18.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c18.dir
@@ -596,7 +596,7 @@ build CMakeFiles/learning-c18.dir/lesson18.c.o: C_COMPILER__learning-c18_Debug /
 #############################################
 # Link the executable learning-c18
 
-build learning-c18: C_EXECUTABLE_LINKER__learning-c18_Debug CMakeFiles/learning-c18.dir/lesson18.c.o
+build learning-c18: C_EXECUTABLE_LINKER__learning-c18_Debug CMakeFiles/learning-c18.dir/lesson18.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c18.dir
   POST_BUILD = :
@@ -613,8 +613,8 @@ build learning-c18: C_EXECUTABLE_LINKER__learning-c18_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c19: phony || CMakeFiles/learning-c19.dir
 
-build CMakeFiles/learning-c19.dir/lesson19.c.o: C_COMPILER__learning-c19_Debug /Users/aliran/Desktop/c/learning-c/lesson19.c || cmake_object_order_depends_target_learning-c19
-  DEP_FILE = CMakeFiles/learning-c19.dir/lesson19.c.o.d
+build CMakeFiles/learning-c19.dir/lesson19.o: C_COMPILER__learning-c19_Debug /Users/aliran/Desktop/c/learning-c/lesson19.c || cmake_object_order_depends_target_learning-c19
+  DEP_FILE = CMakeFiles/learning-c19.dir/lesson19.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c19.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c19.dir
@@ -627,7 +627,7 @@ build CMakeFiles/learning-c19.dir/lesson19.c.o: C_COMPILER__learning-c19_Debug /
 #############################################
 # Link the executable learning-c19
 
-build learning-c19: C_EXECUTABLE_LINKER__learning-c19_Debug CMakeFiles/learning-c19.dir/lesson19.c.o
+build learning-c19: C_EXECUTABLE_LINKER__learning-c19_Debug CMakeFiles/learning-c19.dir/lesson19.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c19.dir
   POST_BUILD = :
@@ -644,8 +644,8 @@ build learning-c19: C_EXECUTABLE_LINKER__learning-c19_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c20: phony || CMakeFiles/learning-c20.dir
 
-build CMakeFiles/learning-c20.dir/lesson20.c.o: C_COMPILER__learning-c20_Debug /Users/aliran/Desktop/c/learning-c/lesson20.c || cmake_object_order_depends_target_learning-c20
-  DEP_FILE = CMakeFiles/learning-c20.dir/lesson20.c.o.d
+build CMakeFiles/learning-c20.dir/lesson20.o: C_COMPILER__learning-c20_Debug /Users/aliran/Desktop/c/learning-c/lesson20.c || cmake_object_order_depends_target_learning-c20
+  DEP_FILE = CMakeFiles/learning-c20.dir/lesson20.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c20.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c20.dir
@@ -658,7 +658,7 @@ build CMakeFiles/learning-c20.dir/lesson20.c.o: C_COMPILER__learning-c20_Debug /
 #############################################
 # Link the executable learning-c20
 
-build learning-c20: C_EXECUTABLE_LINKER__learning-c20_Debug CMakeFiles/learning-c20.dir/lesson20.c.o
+build learning-c20: C_EXECUTABLE_LINKER__learning-c20_Debug CMakeFiles/learning-c20.dir/lesson20.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c20.dir
   POST_BUILD = :
@@ -675,8 +675,8 @@ build learning-c20: C_EXECUTABLE_LINKER__learning-c20_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c21: phony || CMakeFiles/learning-c21.dir
 
-build CMakeFiles/learning-c21.dir/lesson21.c.o: C_COMPILER__learning-c21_Debug /Users/aliran/Desktop/c/learning-c/lesson21.c || cmake_object_order_depends_target_learning-c21
-  DEP_FILE = CMakeFiles/learning-c21.dir/lesson21.c.o.d
+build CMakeFiles/learning-c21.dir/lesson21.o: C_COMPILER__learning-c21_Debug /Users/aliran/Desktop/c/learning-c/lesson21.c || cmake_object_order_depends_target_learning-c21
+  DEP_FILE = CMakeFiles/learning-c21.dir/lesson21.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c21.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c21.dir
@@ -689,7 +689,7 @@ build CMakeFiles/learning-c21.dir/lesson21.c.o: C_COMPILER__learning-c21_Debug /
 #############################################
 # Link the executable learning-c21
 
-build learning-c21: C_EXECUTABLE_LINKER__learning-c21_Debug CMakeFiles/learning-c21.dir/lesson21.c.o
+build learning-c21: C_EXECUTABLE_LINKER__learning-c21_Debug CMakeFiles/learning-c21.dir/lesson21.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c21.dir
   POST_BUILD = :
@@ -706,8 +706,8 @@ build learning-c21: C_EXECUTABLE_LINKER__learning-c21_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c22: phony || CMakeFiles/learning-c22.dir
 
-build CMakeFiles/learning-c22.dir/lesson22.c.o: C_COMPILER__learning-c22_Debug /Users/aliran/Desktop/c/learning-c/lesson22.c || cmake_object_order_depends_target_learning-c22
-  DEP_FILE = CMakeFiles/learning-c22.dir/lesson22.c.o.d
+build CMakeFiles/learning-c22.dir/lesson22.o: C_COMPILER__learning-c22_Debug /Users/aliran/Desktop/c/learning-c/lesson22.c || cmake_object_order_depends_target_learning-c22
+  DEP_FILE = CMakeFiles/learning-c22.dir/lesson22.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c22.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c22.dir
@@ -720,7 +720,7 @@ build CMakeFiles/learning-c22.dir/lesson22.c.o: C_COMPILER__learning-c22_Debug /
 #############################################
 # Link the executable learning-c22
 
-build learning-c22: C_EXECUTABLE_LINKER__learning-c22_Debug CMakeFiles/learning-c22.dir/lesson22.c.o
+build learning-c22: C_EXECUTABLE_LINKER__learning-c22_Debug CMakeFiles/learning-c22.dir/lesson22.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c22.dir
   POST_BUILD = :
@@ -737,8 +737,8 @@ build learning-c22: C_EXECUTABLE_LINKER__learning-c22_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c23: phony || CMakeFiles/learning-c23.dir
 
-build CMakeFiles/learning-c23.dir/lesson23.c.o: C_COMPILER__learning-c23_Debug /Users/aliran/Desktop/c/learning-c/lesson23.c || cmake_object_order_depends_target_learning-c23
-  DEP_FILE = CMakeFiles/learning-c23.dir/lesson23.c.o.d
+build CMakeFiles/learning-c23.dir/lesson23.o: C_COMPILER__learning-c23_Debug /Users/aliran/Desktop/c/learning-c/lesson23.c || cmake_object_order_depends_target_learning-c23
+  DEP_FILE = CMakeFiles/learning-c23.dir/lesson23.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c23.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c23.dir
@@ -751,7 +751,7 @@ build CMakeFiles/learning-c23.dir/lesson23.c.o: C_COMPILER__learning-c23_Debug /
 #############################################
 # Link the executable learning-c23
 
-build learning-c23: C_EXECUTABLE_LINKER__learning-c23_Debug CMakeFiles/learning-c23.dir/lesson23.c.o
+build learning-c23: C_EXECUTABLE_LINKER__learning-c23_Debug CMakeFiles/learning-c23.dir/lesson23.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c23.dir
   POST_BUILD = :
@@ -768,8 +768,8 @@ build learning-c23: C_EXECUTABLE_LINKER__learning-c23_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c24: phony || CMakeFiles/learning-c24.dir
 
-build CMakeFiles/learning-c24.dir/lesson24.c.o: C_COMPILER__learning-c24_Debug /Users/aliran/Desktop/c/learning-c/lesson24.c || cmake_object_order_depends_target_learning-c24
-  DEP_FILE = CMakeFiles/learning-c24.dir/lesson24.c.o.d
+build CMakeFiles/learning-c24.dir/lesson24.o: C_COMPILER__learning-c24_Debug /Users/aliran/Desktop/c/learning-c/lesson24.c || cmake_object_order_depends_target_learning-c24
+  DEP_FILE = CMakeFiles/learning-c24.dir/lesson24.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c24.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c24.dir
@@ -782,7 +782,7 @@ build CMakeFiles/learning-c24.dir/lesson24.c.o: C_COMPILER__learning-c24_Debug /
 #############################################
 # Link the executable learning-c24
 
-build learning-c24: C_EXECUTABLE_LINKER__learning-c24_Debug CMakeFiles/learning-c24.dir/lesson24.c.o
+build learning-c24: C_EXECUTABLE_LINKER__learning-c24_Debug CMakeFiles/learning-c24.dir/lesson24.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c24.dir
   POST_BUILD = :
@@ -799,8 +799,8 @@ build learning-c24: C_EXECUTABLE_LINKER__learning-c24_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c25: phony || CMakeFiles/learning-c25.dir
 
-build CMakeFiles/learning-c25.dir/lesson25.c.o: C_COMPILER__learning-c25_Debug /Users/aliran/Desktop/c/learning-c/lesson25.c || cmake_object_order_depends_target_learning-c25
-  DEP_FILE = CMakeFiles/learning-c25.dir/lesson25.c.o.d
+build CMakeFiles/learning-c25.dir/lesson25.o: C_COMPILER__learning-c25_Debug /Users/aliran/Desktop/c/learning-c/lesson25.c || cmake_object_order_depends_target_learning-c25
+  DEP_FILE = CMakeFiles/learning-c25.dir/lesson25.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c25.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c25.dir
@@ -813,7 +813,7 @@ build CMakeFiles/learning-c25.dir/lesson25.c.o: C_COMPILER__learning-c25_Debug /
 #############################################
 # Link the executable learning-c25
 
-build learning-c25: C_EXECUTABLE_LINKER__learning-c25_Debug CMakeFiles/learning-c25.dir/lesson25.c.o
+build learning-c25: C_EXECUTABLE_LINKER__learning-c25_Debug CMakeFiles/learning-c25.dir/lesson25.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c25.dir
   POST_BUILD = :
@@ -830,8 +830,8 @@ build learning-c25: C_EXECUTABLE_LINKER__learning-c25_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c26: phony || CMakeFiles/learning-c26.dir
 
-build CMakeFiles/learning-c26.dir/lesson26.c.o: C_COMPILER__learning-c26_Debug /Users/aliran/Desktop/c/learning-c/lesson26.c || cmake_object_order_depends_target_learning-c26
-  DEP_FILE = CMakeFiles/learning-c26.dir/lesson26.c.o.d
+build CMakeFiles/learning-c26.dir/lesson26.o: C_COMPILER__learning-c26_Debug /Users/aliran/Desktop/c/learning-c/lesson26.c || cmake_object_order_depends_target_learning-c26
+  DEP_FILE = CMakeFiles/learning-c26.dir/lesson26.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c26.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c26.dir
@@ -844,7 +844,7 @@ build CMakeFiles/learning-c26.dir/lesson26.c.o: C_COMPILER__learning-c26_Debug /
 #############################################
 # Link the executable learning-c26
 
-build learning-c26: C_EXECUTABLE_LINKER__learning-c26_Debug CMakeFiles/learning-c26.dir/lesson26.c.o
+build learning-c26: C_EXECUTABLE_LINKER__learning-c26_Debug CMakeFiles/learning-c26.dir/lesson26.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c26.dir
   POST_BUILD = :
@@ -861,8 +861,8 @@ build learning-c26: C_EXECUTABLE_LINKER__learning-c26_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c27: phony || CMakeFiles/learning-c27.dir
 
-build CMakeFiles/learning-c27.dir/lesson27.c.o: C_COMPILER__learning-c27_Debug /Users/aliran/Desktop/c/learning-c/lesson27.c || cmake_object_order_depends_target_learning-c27
-  DEP_FILE = CMakeFiles/learning-c27.dir/lesson27.c.o.d
+build CMakeFiles/learning-c27.dir/lesson27.o: C_COMPILER__learning-c27_Debug /Users/aliran/Desktop/c/learning-c/lesson27.c || cmake_object_order_depends_target_learning-c27
+  DEP_FILE = CMakeFiles/learning-c27.dir/lesson27.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c27.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c27.dir
@@ -875,7 +875,7 @@ build CMakeFiles/learning-c27.dir/lesson27.c.o: C_COMPILER__learning-c27_Debug /
 #############################################
 # Link the executable learning-c27
 
-build learning-c27: C_EXECUTABLE_LINKER__learning-c27_Debug CMakeFiles/learning-c27.dir/lesson27.c.o
+build learning-c27: C_EXECUTABLE_LINKER__learning-c27_Debug CMakeFiles/learning-c27.dir/lesson27.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c27.dir
   POST_BUILD = :
@@ -892,8 +892,8 @@ build learning-c27: C_EXECUTABLE_LINKER__learning-c27_Debug CMakeFiles/learning-
 
 build cmake_object_order_depends_target_learning-c28: phony || CMakeFiles/learning-c28.dir
 
-build CMakeFiles/learning-c28.dir/lesson28.c.o: C_COMPILER__learning-c28_Debug /Users/aliran/Desktop/c/learning-c/lesson28.c || cmake_object_order_depends_target_learning-c28
-  DEP_FILE = CMakeFiles/learning-c28.dir/lesson28.c.o.d
+build CMakeFiles/learning-c28.dir/lesson28.o: C_COMPILER__learning-c28_Debug /Users/aliran/Desktop/c/learning-c/lesson28.c || cmake_object_order_depends_target_learning-c28
+  DEP_FILE = CMakeFiles/learning-c28.dir/lesson28.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/learning-c28.dir
   OBJECT_FILE_DIR = CMakeFiles/learning-c28.dir
@@ -906,13 +906,44 @@ build CMakeFiles/learning-c28.dir/lesson28.c.o: C_COMPILER__learning-c28_Debug /
 #############################################
 # Link the executable learning-c28
 
-build learning-c28: C_EXECUTABLE_LINKER__learning-c28_Debug CMakeFiles/learning-c28.dir/lesson28.c.o
+build learning-c28: C_EXECUTABLE_LINKER__learning-c28_Debug CMakeFiles/learning-c28.dir/lesson28.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/learning-c28.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = learning-c28
   TARGET_PDB = learning-c28.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target learning-c29
+
+
+#############################################
+# Order-only phony target for learning-c29
+
+build cmake_object_order_depends_target_learning-c29: phony || CMakeFiles/learning-c29.dir
+
+build CMakeFiles/learning-c29.dir/lesson29.o: C_COMPILER__learning-c29_Debug /Users/aliran/Desktop/c/learning-c/lesson29.c || cmake_object_order_depends_target_learning-c29
+  DEP_FILE = CMakeFiles/learning-c29.dir/lesson29.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/learning-c29.dir
+  OBJECT_FILE_DIR = CMakeFiles/learning-c29.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target learning-c29
+
+
+#############################################
+# Link the executable learning-c29
+
+build learning-c29: C_EXECUTABLE_LINKER__learning-c29_Debug CMakeFiles/learning-c29.dir/lesson29.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/learning-c29.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = learning-c29
+  TARGET_PDB = learning-c29.dbg
 
 
 #############################################
@@ -948,7 +979,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio
 
-build all: phony learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11 learning-c12 learning-c13 learning-c14 learning-c15 learning-c16 learning-c17 learning-c18 learning-c19 learning-c20 learning-c21 learning-c22 learning-c23 learning-c24 learning-c25 learning-c26 learning-c27 learning-c28
+build all: phony learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11 learning-c12 learning-c13 learning-c14 learning-c15 learning-c16 learning-c17 learning-c18 learning-c19 learning-c20 learning-c21 learning-c22 learning-c23 learning-c24 learning-c25 learning-c26 learning-c27 learning-c28 learning-c29
 
 # =============================================================================
 # Unknown Build Time Dependencies.

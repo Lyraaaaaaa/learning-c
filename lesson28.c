@@ -9,8 +9,11 @@ int main()
     {
         int j;
         for( j=0 ; j<4 ; j++ )//j列
+        {
+            printf("%d\n", arr1[i][j]);//输出二维数组中每个元素
 
-        printf("%d\n",arr1[i][j]);
+            printf("&arr1[%d][%d]=%p\n", i, j, &arr1[i][j]);//输出每个元素的地址
+        }
     }
     return 0;
 }
