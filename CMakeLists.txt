@@ -1,6 +1,6 @@
 project(learning-c)
 
-add_executable(learning-c1 lesson1.c lesson20.c)
+add_executable(learning-c1 lesson1.c lesson20.c lesson29.c)
 add_executable(learning-c2 lesson2.c)
 add_executable(learning-c3 lesson3.c)
 add_executable(learning-c4 lesson4.c)
