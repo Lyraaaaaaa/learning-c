@@ -165,6 +165,37 @@ build learning-c33: C_EXECUTABLE_LINKER__learning-c33_Debug CMakeFiles/learning-
   TARGET_PDB = learning-c33.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target learning-c34
+
+
+#############################################
+# Order-only phony target for learning-c34
+
+build cmake_object_order_depends_target_learning-c34: phony || CMakeFiles/learning-c34.dir
+
+build CMakeFiles/learning-c34.dir/lesson34.o: C_COMPILER__learning-c34_Debug /Users/aliran/Desktop/c/learning-c/lesson34.c || cmake_object_order_depends_target_learning-c34
+  DEP_FILE = CMakeFiles/learning-c34.dir/lesson34.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/learning-c34.dir
+  OBJECT_FILE_DIR = CMakeFiles/learning-c34.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target learning-c34
+
+
+#############################################
+# Link the executable learning-c34
+
+build learning-c34: C_EXECUTABLE_LINKER__learning-c34_Debug CMakeFiles/learning-c34.dir/lesson34.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
+  OBJECT_DIR = CMakeFiles/learning-c34.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = learning-c34
+  TARGET_PDB = learning-c34.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target learning-c1
 
 
@@ -1109,7 +1140,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio
 
-build all: phony learning-c30 learning-c31 learning-c32 learning-c33 learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11 learning-c12 learning-c13 learning-c14 learning-c15 learning-c16 learning-c17 learning-c18 learning-c19 learning-c20 learning-c21 learning-c22 learning-c23 learning-c24 learning-c25 learning-c26 learning-c27 learning-c28 learning-c29
+build all: phony learning-c30 learning-c31 learning-c32 learning-c33 learning-c34 learning-c1 learning-c2 learning-c3 learning-c4 learning-c5 learning-c6 learning-c7 learning-c8 learning-c9 learning-c10 learning-c11 learning-c12 learning-c13 learning-c14 learning-c15 learning-c16 learning-c17 learning-c18 learning-c19 learning-c20 learning-c21 learning-c22 learning-c23 learning-c24 learning-c25 learning-c26 learning-c27 learning-c28 learning-c29
 
 # =============================================================================
 # Unknown Build Time Dependencies.
