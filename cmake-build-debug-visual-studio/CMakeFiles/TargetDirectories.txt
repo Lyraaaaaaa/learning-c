@@ -4,6 +4,7 @@
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c33.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c34.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c35.dir
+/Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c36.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c1.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c2.dir
 /Users/aliran/Desktop/c/learning-c/cmake-build-debug-visual-studio/CMakeFiles/learning-c3.dir
