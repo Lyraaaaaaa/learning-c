@@ -15,18 +15,15 @@ void print1(struct peo * p5)
 {
     printf("%s %s %s %d\n",p5->name,p5->tele,p5->sex,p5->high);        //结构体指针->成员变量
 }
-
 void print2(struct peo p)
                                         //函数接受struct peo类型的值参数p(而不是指针)➡️直接访问结构体参数p的成员
 {
     printf("%s %s %s %d\n",p.name,p.tele,p.sex,p.high);              //结构体变量.成员变量
 }
-
 int main()                                //通过指针方式和直接访问方式打印出结构体p5的成员值
 {
     struct peo p5={"chris","18618191919","male",188}; //创建1个结构体变量 p5
                                              //p5结构体变量是局部变量
-
     print1(&p5);
     print2(p5);   //p5是实参,p是形参
      return 0;
