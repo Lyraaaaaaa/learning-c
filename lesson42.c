@@ -1,27 +1,97 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-struct int_list                                         //定义名为int_list的结构体类型
+typedef struct list_t
 {
-    int * elements;                                     //指向整数类型数据的指针变量elements
-    size_t capacity;                                    //定义一个无符号整型变量capacity➡️表示当前分配的内存可容纳的最大元素数量
-    size_t size;                                        //定义一个无符号整型变量size➡️表示当前存储的元素数量
-};
-typedef struct int_list int_list_t;                     //为定义的结构体int_list更名为int_list_t
+    int * elements;
+    size_t capacity;
+    size_t size;
+}int_list_t;
 
-void list_init(int_list_t * list,size_t initialcapacity)//函数list_init的定义(无返回值)
-                                                        //函数接收一个指向int_list_t类型的指针变量list和一个无符号整型变量initialcapacity
+void list_init(int_list_t*list,size_t initialcapacity)
 {
+    list->capacity=initialcapacity;
+    list->size=0;
+    list->elements=(int*)malloc(initialcapacity * sizeof(int));
+}
 
-
+void list_push(int_list_t*list,int element)
+{
+    if (list->size >= list->capacity)
+    {
+        size_t newcapacity=list->capacity *2;
+        list->elements =(int*)realloc(list->elements,newcapacity*sizeof(int));
+        list->capacity=newcapacity;
+    }
+    {
+        list->elements[list->size]=element;
+        list->size ++;
+    }
 
 }
 
+int list_length(const int_list_t*list)
+{
+    return list->size;
+}
+
+int list_get (const int_list_t*list,int index)
+{
+    if (index >= 0 && index <= list->size)
+    {
+        return list->elements[index];
+    }
+    printf("error");
+    return 1;
+}
+
+int list_remove(int_list_t*list,int index)
+{
+        if (index >= 0 && index <= list->size)
+        {
+            int removedelement = list->elements[index];
+        size_t i;
+        for (i = index; i < list->size - 1; i++)
+        {
+            list->elements[i] = list->elements[i + 1];
+        }
+        list->size--;
+        return removedelement;
+        }
+
+    printf("error");
+    return 1;
+}
+
+void list_delete(int_list_t*list)
+{
+    free(list->elements);
+        list->elements=NULL;
+        list->size=0;
+        list->capacity=0;
+}
 
 int main()
 {
     int_list_t list;
-    list_init( &list,10);
+    list_init(&list,10);
+
+    list_push(&list,5);
+    list_push(&list,10);
+    list_push(&list,15);
+
+    int length;
+    length = list_length(&list);
+    printf("length of list=%d\n",length);
+
+    int element;
+    element=list_get(&list,1);
+    int removedelement;
+    removedelement=list_remove(&list,0);
+
+    length=list_length(&list);
+    printf("the length after removed=%d\n",length);
+
+    list_delete(&list);
 
     return 0;
 }
